@@ -1,16 +1,8 @@
 import React from "react";
-import {Grid, Link, Paper, styled, Typography} from "@mui/material";
+import {Grid, Link, Paper, Typography} from "@mui/material";
 import Icon from "@mdi/react";
 import { mdiTwitch, mdiTwitter } from "@mdi/js";
 import DiscordIcon from "../../icons/DiscordIcon";
-
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-}));
 
 const HellfireFooter = () => {
     return (
@@ -30,15 +22,19 @@ const HellfireFooter = () => {
                             </Link>
                         </Grid>
                         <Grid item>
+                            <Link href={"https://discord.gg/4e3ugKAawz"} target={"_blank"} rel={"noopener"} color={"inherit"} underline={"none"}>
+                                <span style={{
+                                    width: 32
+                                }}>
+                                    <DiscordIcon  />
+                                </span>
+                            </Link>
+                        </Grid>
+                        <Grid item>
                             <Link href={"https://twitter.com/usehellfire"} target={"_blank"} rel={"noopener"} color={"inherit"} underline={"none"}>
                                 <Icon path={mdiTwitter} style={{
                                     width: 32
                                 }}/>
-                            </Link>
-                        </Grid>
-                        <Grid item>
-                            <Link href={"https://discord.gg/4e3ugKAawz"} target={"_blank"} rel={"noopener"} color={"inherit"} underline={"none"}>
-                                <DiscordIcon />
                             </Link>
                         </Grid>
                     </Grid>
