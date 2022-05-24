@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mui/icons-material", "virtual:b782ed16f6ddd23e5f980f1493ffcdfaef70cccdab6da18b4e90c0d345d461fafae0aff7cb2a0a7d37d3202cca574fed55c0c5bcdc2df1aca177a2e496ade244#npm:5.8.0"],\
             ["@mui/material", "virtual:b782ed16f6ddd23e5f980f1493ffcdfaef70cccdab6da18b4e90c0d345d461fafae0aff7cb2a0a7d37d3202cca574fed55c0c5bcdc2df1aca177a2e496ade244#npm:5.8.0"],\
             ["@types/react", "npm:18.0.9"],\
-            ["@types/react-dom", "npm:18.0.4"],\
+            ["@types/react-dom", "npm:18.0.5"],\
             ["@vitejs/plugin-react", "npm:1.3.2"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:b782ed16f6ddd23e5f980f1493ffcdfaef70cccdab6da18b4e90c0d345d461fafae0aff7cb2a0a7d37d3202cca574fed55c0c5bcdc2df1aca177a2e496ade244#npm:18.1.0"],\
@@ -2743,7 +2743,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/traverse", "npm:7.18.0"],\
             ["@babel/types", "npm:7.18.0"],\
             ["@types/react", "npm:18.0.9"],\
-            ["@types/react-dom", "npm:18.0.4"],\
+            ["@types/react-dom", "npm:18.0.5"],\
             ["@vitejs/plugin-react", "npm:1.3.2"],\
             ["axe-core", "npm:4.4.2"],\
             ["boxen", "npm:5.1.2"],\
@@ -2812,7 +2812,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mui/utils", "virtual:f1d438eff216fec3b10e299e9c5ace96dc79c1777ba1a9e554fc9f45a141dd17ede75696e802986ba10fd7e8d0bb74d9f1403505ae88f372074fc1069ea2642b#npm:5.8.0"],\
             ["@popperjs/core", "npm:2.11.5"],\
             ["@types/react", "npm:18.0.9"],\
-            ["@types/react-dom", "npm:18.0.4"],\
+            ["@types/react-dom", "npm:18.0.5"],\
             ["clsx", "npm:1.1.1"],\
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.1.0"],\
@@ -2877,7 +2877,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/emotion__react", null],\
             ["@types/emotion__styled", null],\
             ["@types/react", "npm:18.0.9"],\
-            ["@types/react-dom", "npm:18.0.4"],\
+            ["@types/react-dom", "npm:18.0.5"],\
             ["@types/react-transition-group", "npm:4.4.4"],\
             ["clsx", "npm:1.1.1"],\
             ["csstype", "npm:3.1.0"],\
@@ -3166,10 +3166,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/react-dom", [\
-        ["npm:18.0.4", {\
-          "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.0.4-8c3a3a3a87-decde42d02.zip/node_modules/@types/react-dom/",\
+        ["npm:18.0.5", {\
+          "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.0.5-acb34f8ae9-cd48b81950.zip/node_modules/@types/react-dom/",\
           "packageDependencies": [\
-            ["@types/react-dom", "npm:18.0.4"],\
+            ["@types/react-dom", "npm:18.0.5"],\
             ["@types/react", "npm:18.0.9"]\
           ],\
           "linkType": "HARD"\
@@ -4699,7 +4699,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mui/icons-material", "virtual:b782ed16f6ddd23e5f980f1493ffcdfaef70cccdab6da18b4e90c0d345d461fafae0aff7cb2a0a7d37d3202cca574fed55c0c5bcdc2df1aca177a2e496ade244#npm:5.8.0"],\
             ["@mui/material", "virtual:b782ed16f6ddd23e5f980f1493ffcdfaef70cccdab6da18b4e90c0d345d461fafae0aff7cb2a0a7d37d3202cca574fed55c0c5bcdc2df1aca177a2e496ade244#npm:5.8.0"],\
             ["@types/react", "npm:18.0.9"],\
-            ["@types/react-dom", "npm:18.0.4"],\
+            ["@types/react-dom", "npm:18.0.5"],\
             ["@vitejs/plugin-react", "npm:1.3.2"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:b782ed16f6ddd23e5f980f1493ffcdfaef70cccdab6da18b4e90c0d345d461fafae0aff7cb2a0a7d37d3202cca574fed55c0c5bcdc2df1aca177a2e496ade244#npm:18.1.0"],\
@@ -5792,7 +5792,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-transition-group", "virtual:f1d438eff216fec3b10e299e9c5ace96dc79c1777ba1a9e554fc9f45a141dd17ede75696e802986ba10fd7e8d0bb74d9f1403505ae88f372074fc1069ea2642b#npm:4.4.2"],\
             ["@babel/runtime", "npm:7.18.0"],\
             ["@types/react", "npm:18.0.9"],\
-            ["@types/react-dom", "npm:18.0.4"],\
+            ["@types/react-dom", "npm:18.0.5"],\
             ["dom-helpers", "npm:5.2.1"],\
             ["loose-envify", "npm:1.4.0"],\
             ["prop-types", "npm:15.8.1"],\
