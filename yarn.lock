@@ -31,7 +31,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.17.10, @babel/core@npm:^7.17.8":
+"@babel/core@npm:^7.17.10, @babel/core@npm:^7.17.8, @babel/core@npm:^7.18.0":
   version: 7.18.0
   resolution: "@babel/core@npm:7.18.0"
   dependencies:
@@ -3243,6 +3243,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hellfire.pyrrha.dev@workspace:."
   dependencies:
+    "@babel/core": ^7.18.0
+    "@babel/plugin-transform-react-jsx": ^7.17.12
     "@emotion/react": ^11.9.0
     "@emotion/styled": ^11.8.1
     "@ladle/react": ^0.15.1
