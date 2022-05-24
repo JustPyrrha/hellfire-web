@@ -20,7 +20,7 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           ARGS: "-rav --delete"
-          SOURCE: "dist/"
+          SOURCE: "out/"
           REMOTE_HOST: ${{ secrets.VPS_HOST }}
           REMOTE_USER: "ubuntu"
           TARGET: "/var/www/hellfire.pyrrha.dev/"
