@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    emotion: true
+    emotion: true,
+    outputStandalone: true
   }
 }
 
