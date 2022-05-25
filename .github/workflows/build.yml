@@ -17,11 +17,7 @@ jobs:
           registry: docker.pyrrha.gay
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-      - uses: docker/build-push-action@v3
-        with:
-          context: .
-          platforms: linux/amd64
-          tags: docker.pyrrha.gay/hellfire/web:latest
+      - run: docker build - < Dockerfile
       - run: docker push docker.pyrrha.gay/hellfire/web:latest
   deploy:
     runs-on: ubuntu-22.04
