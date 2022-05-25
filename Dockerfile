@@ -34,4 +34,4 @@ USER nextjs
 
 EXPOSE 3000
 ENV PORT 3000
-CMD ["node", "-f", ".pnp.cjs", "server.js"]
+CMD ["node", "-r", "./.pnp.cjs", "server.js"]
