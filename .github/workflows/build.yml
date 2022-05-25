@@ -22,7 +22,7 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: repo.pyrrha.gay/repository/docker/hellfire/web:latest
+          tags: docker.pyrrha.gay/repository/docker/hellfire/web:latest
   deploy:
     runs-on: ubuntu-22.04
     needs: [ build ]
