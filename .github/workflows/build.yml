@@ -34,7 +34,8 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             sudo docker login -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }} ghcr.io
-            sudo docker stop hellfire-web && docker rm hellfire-web
+            sudo docker stop hellfire-web
+            sudo docker rm hellfire-web
             sudo docker pull ghcr.io/justpyrrha/hellfire-web:latest
             sudo docker run -d -p 3000:3000 --name hellfire-web ghcr.io/justpyrrha/hellfire-web:latest
             sudo docker logout ghcr.io
