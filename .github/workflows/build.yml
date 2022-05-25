@@ -19,7 +19,7 @@ jobs:
           platforms: linux/amd64
           outputs: type=oci,dest=/tmp/image.tar
           tags: docker.pyrrha.gay/hellfire/web:latest
-      - run: sudo ctr i import --base-name docker.pyrrha.gay/hellfire/web --digests --all-platforms /tmp/image.tar
+      - run: sudo ctr i import --base-name docker.io/user/app --digests --all-platforms /tmp/image.tar
       - run: sudo ctr --debug i push --user "${{ secrets.DOCKER_USERNAME }}:${{ secrets.DOCKER_PASSWORD }}" docker.pyrrha.gay/hellfire/web:latest
   deploy:
     runs-on: ubuntu-22.04
