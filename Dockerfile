@@ -23,6 +23,7 @@ RUN adduser --system --uid 1001 nextjs
 COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/.pnp.cjs ./.pnp.cjs
 
 # Automatically leverage output traces to reduce image size
 # https://nextjs.org/docs/advanced-features/output-file-tracing
@@ -33,4 +34,4 @@ USER nextjs
 
 EXPOSE 3000
 ENV PORT 3000
-CMD ["node", "server.js"]
+CMD ["node", "-f", ".pnp.cjs", "server.js"]
